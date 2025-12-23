@@ -1,27 +1,16 @@
-# FoundationServer
-
-💧 A project built with the Vapor web framework.
+# Apple Foundation Models Server
+> [!NOTE]  
+> This project requires a Mac with Apple Intelligence installed.
 
 ## Getting Started
+### Option 1
+Open the project with Xcode and start the server using [Product > Run].
 
-To build the project using the Swift Package Manager, run the following command in the terminal from the root of the project:
-```bash
-swift build
-```
-
-To run the project and start the server, use the following command:
+### Option 2
+To run the project and start the server using the Swift Package Manager, run the following command in the terminal from the root of the project:
 ```bash
 swift run
 ```
 
-To execute tests, use the following command:
-```bash
-swift test
-```
-
-### See more
-
-- [Vapor Website](https://vapor.codes)
-- [Vapor Documentation](https://docs.vapor.codes)
-- [Vapor GitHub](https://github.com/vapor)
-- [Vapor Community](https://github.com/vapor-community)
+## Open WebUI 
+Since this project implements the OpenAI API standard, it is compatible with chat user interfaces such as [Open WebUI](https://github.com/open-webui/open-webui?tab=readme-ov-file#open-webui-).
