@@ -1,10 +1,10 @@
-// swift-tools-version:6.0
+// swift-tools-version:6.2
 import PackageDescription
 
 let package = Package(
     name: "FoundationServer",
     platforms: [
-       .macOS(.v13)
+        .macOS(.v26)
     ],
     dependencies: [
         // 💧 A server-side Swift web framework.
